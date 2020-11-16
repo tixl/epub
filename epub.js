@@ -3,7 +3,7 @@ var xml2jsOptions = xml2js.defaults['0.1'];
 var EventEmitter = require('events').EventEmitter;
 
 try {
-    // zipfile is an optional dependency:
+    // zipfile is a peer dependency:
     var ZipFile = require("zipfile").ZipFile;
 } catch (err) {
     // Mock zipfile using pure-JS adm-zip:
