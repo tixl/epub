@@ -4,6 +4,9 @@
 
 **NB!** Only ebooks in UTF-8 are currently supported!.
 
+---
+# This fork is used due to some optional dependency issue in node > 10
+
 ## Installation
 
     npm install epub
